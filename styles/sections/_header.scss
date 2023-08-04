@@ -5,7 +5,9 @@
     padding: 0px 51px;
     .header-inner {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
+      min-height: 28px;
       .logo {
         width: 130px;
         height: 28px;
@@ -14,23 +16,51 @@
       }
       .navigation {
         display: flex;
+        flex-wrap: wrap;
         margin-right: auto;
-        min-width: 592px;
-        li {
+        min-width: 46%;
+        // 592px
+        li:not(:last-child) {
           margin-right: 50px;
         }
-        li:last-child {
-          margin-right: 0px;
-        }
+        // li:last-child {
+        //   margin-right: 0px;
+        // }
         li a {
         font-family: GraphikLCG;
         color: #000;
         font-size: 15px;
-        font-weight: 400;
-        line-height: 20px; 
+        font-weight: 400; 
+        line-height: 133%;
         text-decoration: none;
         }
       }  
     }
   }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    .container {
+      .header-inner {
+        .logo {
+          // -----------------------
+          margin-right: 30px;
+          // ---------------------
+        }
+        .navigation {
+          li:not(:last-child) {
+            // ----------------
+            margin-right: 30px;
+            // ---------------------
+          }
+        }  
+      }
+    }
+  } 
+
+
+
+
+
+
 }
