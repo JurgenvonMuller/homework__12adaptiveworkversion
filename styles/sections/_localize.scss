@@ -1,0 +1,53 @@
+.localize {
+  background-color: #FFF8E4;
+  .container {
+    .localize-inner {
+      padding: 120px 0 93px 0;
+      margin:0 20px 0 20px;
+      .title {
+        font-family: GraphikLCG;
+        margin-bottom: 58px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+      }
+      .cards {
+        font-family: GraphikLCG;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1290px;
+        margin: 0px auto;
+        padding: 0 40px 0;
+        .card {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 330px;
+          width: 100%;
+          margin-bottom: 57px;
+          padding-top: 21px;
+          .localize .card-name {
+            font-family: GraphikLCG;
+            display: block;
+            color: #000;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 35px;
+            margin: 26px 0px 20px;
+          }
+          .localize .card-opis {
+            font-family: GraphikLCG;
+            color: #000;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}

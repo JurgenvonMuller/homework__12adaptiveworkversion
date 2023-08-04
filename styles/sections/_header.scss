@@ -1,0 +1,36 @@
+.header {
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+  .container {
+    padding: 0px 51px;
+    .header-inner {
+      display: flex;
+      align-items: center;
+      .logo {
+        width: 130px;
+        height: 28px;
+        object-fit: contain;
+        margin-right: 50px;
+      }
+      .navigation {
+        display: flex;
+        margin-right: auto;
+        min-width: 592px;
+        li {
+          margin-right: 50px;
+        }
+        li:last-child {
+          margin-right: 0px;
+        }
+        li a {
+        font-family: GraphikLCG;
+        color: #000;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px; 
+        text-decoration: none;
+        }
+      }  
+    }
+  }
+}

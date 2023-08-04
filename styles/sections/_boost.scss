@@ -1,0 +1,61 @@
+.boost {
+  background-color: #FFFFFF;
+  .container {
+    .boost-inner {
+      padding: 154px 20px 180px 20px;
+      .title {
+        font-family: GraphikLCG;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        padding-bottom: 30px;
+      }
+      .boost-cards {
+        display: flex;
+        align-items: baseline;
+        margin: 0px auto;
+        .boost-card {
+          max-width: 400px;
+          width: 100%;
+          margin-right: 30px;
+          .img-place {
+            padding: 50px 0 50px;
+          }
+          .card-name {
+            font-family: GraphikLCG;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 40px;
+            margin: 0px 0 34px;
+          }
+          .card-opis {
+            font-family: GraphikLCG;
+            margin-bottom: 25px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+          }
+          .boost-card a {
+            font-family: GraphikLCG;
+            padding-bottom: 0px;
+            color: #000;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+ 
+ 

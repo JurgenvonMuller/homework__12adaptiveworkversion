@@ -1,0 +1,36 @@
+/*Integrate Lokalise with your work tools*/
+.integra {
+  background-color: #FFFFFF;
+  .container {
+    .integra-inner {
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      padding: 170px 0px 160px 0px;
+      margin:0 auto;
+
+      .integra-title {
+        font-family: GraphikLCG;
+        text-align: center;
+        max-width: 790px;
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 75px;
+      }
+      p {
+        font-family: GraphikLCG;
+        max-width: 540px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px; 
+        margin-bottom: 25px;
+        line-height: 30px;
+      }
+      .btn.primary.large {
+        margin-top: 32px; 
+        padding: 20px;
+      }
+    }
+  }
+}

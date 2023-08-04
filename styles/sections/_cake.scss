@@ -1,0 +1,40 @@
+.cake {
+  background-color: #DABC98;
+  
+  .container {
+    
+    .cake-inner {
+      display: flex;
+      padding: 70px 0 96px;
+      
+      .cake-opis {
+        display: flex;
+        align-items: center;
+        border-right: 1px solid black;
+        .title {
+          font-family: GraphikLCG;
+          margin: 0 125px 0 68px ;
+          font-size: 35px;
+          font-weight: 600;
+          line-height: 50px; 
+        }
+      }
+    }
+    .cake-capterra {
+      display: flex;
+      align-items: center;
+
+      .stars {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 70px;
+
+        .pic {
+          margin: 20px 0 14px 0;
+        }
+      }
+    }
+  }
+}
+

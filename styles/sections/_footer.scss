@@ -1,0 +1,33 @@
+.footer {
+  background-color: #eeeeee;
+  .container {
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 53px 20px 43px 20px;
+      border-top: 1px solid #000;
+      .autor {
+        display: inline-flex;
+        align-items: center;
+        p {
+          font-family: GraphikLCG;
+          max-width: 302px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+          margin-left: 14px;
+        }
+      }
+      .data {
+        margin-right: 76px;
+        p {
+          font-family: GraphikLCG;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+        }
+      }
+    }
+  }
+}

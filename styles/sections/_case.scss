@@ -1,0 +1,78 @@
+.case {
+  background-color: #eeeeee;
+  .container {
+    .case-inner {
+      display: flex;
+      margin: 0 auto;
+      padding: 92px 20px 94px 20px;
+      .studies {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 370px;
+        padding-right: 70px;;
+        h2 {
+          font-family: GraphikLCG;
+          font-size: 40px;
+          font-weight: 600;
+          line-height: 50px;
+        }
+        img {
+          width: 300px;
+          height: 300px;
+          margin: 28px 0px 30px;
+        }
+        .speciallized-small {
+          width: 80px;
+          height: 32px;
+          flex-shrink: 0;
+          margin: 0px;
+        }
+        p {
+          font-family: GraphikLCG;
+          display: block;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          margin: 10px 0 16px;
+        }
+        a {
+          font-family: GraphikLCG;
+          color: #000;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 30px;
+          text-decoration: none;
+        }
+      }
+      .list {
+        justify-content: space-around;
+        max-width: 218px;
+        p {
+          font-family: GraphikLCG;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 25px;
+          margin-bottom: 21px;
+        }
+        .case-list {
+          min-width: 188px;
+          margin-right: 34px;
+        } 
+        li {
+          font-family: GraphikLCG;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 15px;
+          margin-bottom: 15px;
+        }
+      }
+      .list.lm {
+        margin-left:70px;
+      } 
+      .list.rm {
+        margin-right: 0px;
+      }
+    }
+  }
+}
