@@ -12,12 +12,14 @@
         width:100%;
         padding: 0 20px;
         margin-bottom: 250px;
+        
         .block {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           max-width: 493px;
           padding: 5px 0;
+          
           .title {
             font-family: GraphikLCG;
             font-size: 50px;
@@ -44,26 +46,61 @@
           .link:hover {
             color: #FF9C7D;
           }
+          
         }  
-        .image {
-          max-width: 632px;
-          height: 632px;
-          margin-right: 20px;
+        .projects-svg-container {
+          display: inline-block;
+          position: relative;
+          width: 100%;
+          padding-bottom: 100%; 
+          vertical-align: middle; 
+          overflow: hidden; 
+          // order: 2;
+          // &:nth-child(even) 
+          // {.projects-svg-container {
+          //   order: 1;
+          // }
+          // }
+                    
+          .projects-svg-content {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
         }
-        &:last-child {
-          margin-bottom: 0;
-        } 
-        &:nth-child(even) .image {
-          order: 1;
+        &:nth-child(even) {
+          .block {order:2;}
         }
-        &:nth-child(even) .block {
-          order: 2;
-          margin-right: 0;
-        }
-        &:last-child .image {
-          height: 577px;
-        }
+        // .image {
+        //   max-width: 632px;
+        //   height: 632px;
+        //   margin-right: 20px;
+        // }
+        // &:last-child {
+        //   margin-bottom: 0;
+        // } 
+        // &:nth-child(even) .image {
+        //   order: 1;
+        // }
+        // &:nth-child(even) .block {
+        //   order: 2;
+        //   margin-right: 0;
+        // }
+        // &:last-child .image {
+        //   height: 577px;
+        // }
       }  
     }
   }
 }
+
+// .projects .container .projects-inner .item :nth-child(even) {
+//   .block {order: 2;}
+//   .projects-svg-container {order: 1;}
+// }
+
+// .projects .container .projects-inner .item .block:nth-child(3) 
+// {order: 2;}
+// .projects .container .projects-inner .item .projects-svg-container:nth-child(3) 
+// {order: 1;}

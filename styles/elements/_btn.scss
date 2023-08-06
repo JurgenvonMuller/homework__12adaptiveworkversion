@@ -46,6 +46,11 @@
       background-color: transparent;
       color: #ff6336;
     }
+    @media screen and (max-width: 500px) {
+      .btn__primary-hero {
+        margin-bottom: 20px;
+      }
+    }
   }
   &__primary-hero-black {
     background-color: transparent;
